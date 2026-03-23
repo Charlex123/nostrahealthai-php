@@ -46,5 +46,9 @@
             "NostraHealthAI\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/Charlex123/nostra-sdk-php",
+        "issues": "https://github.com/Charlex123/nostra-sdk-php/issues"
+    }
 }
