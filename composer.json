@@ -48,7 +48,7 @@
     },
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/Charlex123/nostrahealthai-sdk-php",
-        "issues": "https://github.com/Charlex123/nostrahealthai-sdk-php/issues"
+        "source": "https://github.com/Charlex123/nostrahealthai-php",
+        "issues": "https://github.com/Charlex123/nostrahealthai-php/issues"
     }
 }
