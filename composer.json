@@ -1,0 +1,50 @@
+{
+    "name": "nostrahealthai/sdk",
+    "description": "Official PHP SDK for NostraHealthAI Medical AI Platform - Skin Analysis, Eye Diagnosis, Wound Tracking, Drug Verification, and FHIR",
+    "version": "2.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "nostra",
+        "health",
+        "ai",
+        "medical",
+        "healthcare",
+        "sdk",
+        "skin-analysis",
+        "eye-diagnosis",
+        "wound-healing",
+        "drug-verification",
+        "fhir",
+        "hl7",
+        "telemedicine",
+        "hospital",
+        "clinical"
+    ],
+    "authors": [
+        {
+            "name": "Nostra Health",
+            "email": "support@nostrahealth.com"
+        }
+    ],
+    "homepage": "https://docs.nostrahealthai.com/sdk",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NostraHealthAI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NostraHealthAI\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
